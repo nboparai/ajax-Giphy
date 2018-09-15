@@ -1,0 +1,22 @@
+.animal-btn
+{
+    margin: 5px 5px 5px 5px;
+}
+#buttons-view{
+    text-align: center;
+}
+img{
+    width: 300px;  
+    height: 250px; 
+    
+}
+.gifDiv{
+    float: left;
+    margin: 20px;
+    
+}
+
+p{
+    /* display: inline; */
+    /* width: 200px; */
+}

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/ajax-style.css">
+</head>
+<body>
+    <!-- Animals will Get Dumped Here -->
+    <div id="animals-view"></div>
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <form id="animals-form">
+                <label for="animal-input">Add an animal</label>
+                <input type="text" id="animal-input">
+                <br>
+                 <!-- Button triggers new animal to be added -->
+                <input id="add-animal" class ="btn btn-success" type="submit" value="Add an animal">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <div id="gifArea"></div>
+            </div>
+        </div> <!--end of row -->
+    </div> <!-- end of container  -->
+      
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/script/ajax-script.js"></script>
+</body>
+</html>
+
+
+
+<!-- create an array of strings -->
+<!-- create button for each element in array -->
+<!-- onClick of button display 10 gifys -->
+<!-- onclick on a gify animate -->
+<!-- stop animation on onClick -->
+<!-- give user the ability to add new element -->
